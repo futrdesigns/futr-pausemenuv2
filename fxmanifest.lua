@@ -3,7 +3,7 @@ game 'gta5'
 
 description 'A nice advanced pausemenu'
 Author "futrdesigns"
-version '2.0.0'
+version '1.0.0'
 
 lua54 'yes'
 
@@ -21,6 +21,7 @@ files {
   'html/*',
   'html/images/*'
 }
+
 
 
 
