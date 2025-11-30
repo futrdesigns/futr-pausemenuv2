@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>FUTR Pause Menu v2</title>
+</head>
+<body>
+    <div id="pos">
+        <div id="container">
+            <div id="sidebar">
+                <div class="logo-container">
+                    <img src="images/logo.png" alt="FUTR Logo">
+                    <div class="server-info">
+                        <h2></h2>
+                        <p>v2.0.0 | Press ESC to close</p>
+                    </div>
+                </div>
+                
+                <div class="menu-items">
+                    <div class="menu-item" onclick="menuClicked('resume')">
+                        <div class="menu-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="menu-text">
+                            <span>RESUME</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item" onclick="menuClicked('keybinds')">
+                        <div class="menu-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="menu-text">
+                            <span>SETTINGS</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item" onclick="menuClicked('map')">
+                        <div class="menu-icon">
+                            <i class="fas fa-map"></i>
+                        </div>
+                        <div class="menu-text">
+                            <span>MAP</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item quit" onclick="menuClicked('quit')">
+                        <div class="menu-icon">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </div>
+                        <div class="menu-text">
+                            <span>QUIT</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-info">
+                    <p>futr-pausemenuv2 | Made with care by futr</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
